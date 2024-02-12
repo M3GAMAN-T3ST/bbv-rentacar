@@ -4,8 +4,8 @@ QBCore = exports['qb-core']:GetCoreObject()  -- uncomment if you use QBCore
 -- ESX = exports["es_extended"]:getSharedObject() -- uncomment if you use ESX
 
 Config.Settings = {
-    Framework = "ST", -- QB/ESX/ST - (ST = Standalone)
-    Target = "OX", -- QB/OX/BT/ST - (ST = No Target)
+    Framework = "QB", -- QB/ESX/ST - (ST = Standalone)
+    Target = "QB", -- QB/OX/BT/ST - (ST = No Target)
     RentLocation = vector3(-895.22, -2585.96, 13.98),
     TestDriveLocation = vector4(-930.05, -3278.49, 13.94, 61.23),
     CarSpawn = vector4(-896.36, -2592.7, 13.16, 150.29),
