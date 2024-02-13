@@ -212,7 +212,7 @@ CreateThread(function()
             if dist < 5 then 
                 WaitTime = 0
                 Wrapper:Prompt('Press [E] to return the car')
-                DrawMarker(0, Config.Settings.ReturnLocation, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.75, 0.75, 0.75, 204, 204, 0, 100, false, true, 2, false, false, false, false)
+                -- DrawMarker(0, Config.Settings.ReturnLocation, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.75, 0.75, 0.75, 204, 204, 0, 100, false, true, 2, false, false, false, false)
                 if IsControlPressed(0,46) then
                     local plate = GetVehicleNumberPlateText(GetVehiclePedIsIn(PlayerPedId()))
                     if plate == GetVehicleNumberPlateText(Main.RentCar) then
